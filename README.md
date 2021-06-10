@@ -5,6 +5,8 @@
 <code><img src="https://github.com/abranhe/programming-languages-logos/blob/master/src/c/c_48x48.png" alt="C" width="40" height="40" /></code>&nbsp;
 </p>
 
+<img align="right" alt="GIF" src="https://vuejsexamples.com/content/images/2018/11/Quick-Sort-Algorithm.gif" width="400" height="300" />
+
 ## Description :godmode:
 #### This is a team project of Holberton School.
 #### 0x1B. C - Sorting algorithms & Big O
