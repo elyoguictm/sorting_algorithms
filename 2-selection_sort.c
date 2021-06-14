@@ -2,9 +2,10 @@
 
 /**
  * selection_sort - sorts an array of integers in ascending order
- * using the Selection sort algorithm
- * @array: array to be sorted
- * @size: number of elements in @array
+ *  using the Selection sort algorithm
+ *
+ * @array: array of integer to be sorted
+ * @size: array's size
  */
 void selection_sort(int *array, size_t size)
 {
@@ -14,7 +15,7 @@ void selection_sort(int *array, size_t size)
 	{
 		tim = z;
 		for (x = z; x < size; x++)
-	{
+		{
 		if (array[x] < array[tim])
 			tim = x;
 	}
