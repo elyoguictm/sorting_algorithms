@@ -24,8 +24,10 @@ void print_list(const listint_t *list);
 
 /* Sorting */
 void bubble_sort(int *array, size_t size);
-void insertion_sort_list(listint_t **list);
+void insertion_sort_list(listint_t **);
 void selection_sort(int *array, size_t size);
-void quick_sort(int *array, size_t size);
+void quick_sort(int *, size_t);
+void my_quick_sort(int *, int, int, size_t);
+int my_partition(int *, int, int, size_t);
 
 #endif
