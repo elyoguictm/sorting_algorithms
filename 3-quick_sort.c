@@ -17,6 +17,7 @@ void quick_sort(int *array, size_t size)
  * @array: Array to sort
  * @start: Start of the array
  * @end: End of the array
+ * @size: size of the array to print
  * ----------------------------------
  */
 void my_quick_sort(int *array, int start, int end, size_t size)
@@ -37,7 +38,9 @@ void my_quick_sort(int *array, int start, int end, size_t size)
  * @array: Array to sort
  * @start: Start of the partition
  * @end: End of the partition
+ * @size: size of the array to print
  * ----------------------------------
+ * Return: the last index
  */
 int my_partition(int *array, int start, int end, size_t size)
 {
